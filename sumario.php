@@ -38,4 +38,13 @@ echo "linha 1 \n";      //pode ser feita quebra de linha com o \n
 echo "linha 2 \r\n";    //pode ser feita quebra de linha com \r\n
 echo 'linha 3' . "\n";  //pode ser feita quebra de linha com aspas simple concatenando \n ou \r\n
 echo "linha 4" . PHP_EOL; //pode ser feita quebra de linha com PHP_EOL (End of line)
-echo 'linha final';
+echo 'linha final' . PHP_EOL;
+
+//comparações logicas
+
+if ($idade >= 100) {  // if (condição <, >, ==, !=) {ação em caso true} 
+    echo 'Você é muito experiente!!!' . PHP_EOL; // (||) (or) para ou e (and) (&&) para e 
+} else { // else {ação caso false} 
+    echo 'Você ainda tem muito tempo de vida' . PHP_EOL;
+}
+
