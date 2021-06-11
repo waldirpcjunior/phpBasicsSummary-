@@ -1,7 +1,7 @@
 <?php
 
 $anoAtual = date('Y');
-$idade = 28;
+$idade = 3;
 $anoCopaDoMundo = 1930;
 $anoDeNacimento = $anoAtual -  $idade;
 $AnoQueVouTerCemAnos = $anoDeNacimento + 100;
@@ -10,7 +10,7 @@ $vera = 0;
 
 while ($anoCopaDoMundo <= $AnoQueVouTerCemAnos) {
 
-    if($anoCopaDoMundo > $anoDeNacimento && $anoCopaDoMundo < $anoAtual) {
+    if($anoCopaDoMundo >= $anoDeNacimento && $anoCopaDoMundo <= $anoAtual) {
         
         if ($anoCopaDoMundo <= 1938 || $anoCopaDoMundo >= 1950) {
         

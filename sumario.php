@@ -48,3 +48,11 @@ if ($idade >= 100) {  // if (condição <, >, ==, !=) {ação em caso true}
     echo 'Você ainda tem muito tempo de vida' . PHP_EOL;
 }
 
+//repetição  (Programa para saber quantos e quais anos de copas do mundo já vi e vou ver vivendo até 100 de vida)
+
+$contador = 0;
+
+while ($contador <= 100) {
+    echo "#$contador" , PHP_EOL;
+    $contador ++ ; 
+}
