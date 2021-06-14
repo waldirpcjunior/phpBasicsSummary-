@@ -54,5 +54,11 @@ $contador = 0;
 
 while ($contador <= 100) {
     echo "#$contador" , PHP_EOL;
-    $contador ++ ; 
+    $contador ++ ;    //o incremento pode ser dessas maneiras ($contador += 1) ou ($contador ++) ou ($contador = 1 + $contador)
 }
+
+for ($cont = 1 ; $cont <= 100 ; $cont++){   // (variavel inicial; condição ; incremento)
+    echo "#$cont" , PHP_EOL;
+} 
+
+
