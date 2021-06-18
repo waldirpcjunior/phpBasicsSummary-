@@ -12,3 +12,12 @@ for ($i = 0 ; $i <= 100 ; $i++) {
             echo $i , PHP_EOL;
         }    
 }
+
+// outra maneira...
+
+// for ($contador = 1; $contador <100; $contador++) {
+//     if ($contador % 2 == 0) {
+//         continue;
+//     }
+//         echo $contador . PHP_EOL;
+// }

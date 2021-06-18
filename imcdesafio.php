@@ -1,7 +1,7 @@
 <?php
 
-$peso = 80;
-$altura = 1.80;
+$peso = 78;
+$altura = 1.74;
 
 $imc = $peso / $altura ** 2; 
 $imcFormatado = round($imc, 2);
